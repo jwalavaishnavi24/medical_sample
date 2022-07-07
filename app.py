@@ -9,8 +9,8 @@ import pickle
 import numpy as np
 from haversine import haversine
 
-data = pickle.load(open('/Users/jwalavaishnavikarri/Documents/Project_new/live-project-2022-main/dataset.pkl', 'rb'))
-model = pickle.load(open('/Users/jwalavaishnavikarri/Documents/Project_new/live-project-2022-main/model.pkl', 'rb'))
+data = pickle.load(open('/Users/jwalavaishnavikarri/Documents/Project_new/dataset.pkl', 'rb'))
+model = pickle.load(open('/Users/jwalavaishnavikarri/Documents/Project_new/model.pkl', 'rb'))
 
 
 project = st.sidebar.radio('SELECT AN OPTION', ['HOME', 'PREDICTION'])
